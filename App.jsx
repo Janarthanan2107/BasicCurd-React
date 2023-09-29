@@ -18,7 +18,7 @@ const App = () => {
   const deleteItem = (id) => {
     const remaining = items.filter((item) => item.id !== id);
     setItems(remaining);
-    // toast.error("Deleted Successfully!");
+    toast.error("Deleted Successfully!");
   };
 
   const updateItem = (id) => {
