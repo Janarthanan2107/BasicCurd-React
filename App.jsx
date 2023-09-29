@@ -23,14 +23,10 @@ const App = () => {
 
   const updateItem = (id) => {
     setIsEditing(true);
-    setItemToEdit(items.find((item) => item.id === id));
-  };
-
-  // for the perfect sync with items to edit on input
-  useEffect(() => {
+    const itemToEdit = items.find((item) => item.id === id);
     setUsername(itemToEdit.username);
     setRole(itemToEdit.role);
-  }, [itemToEdit]);
+  };
 
   const submitHandler = () => {
     if (username) {
