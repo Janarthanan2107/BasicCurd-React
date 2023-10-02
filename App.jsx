@@ -68,7 +68,7 @@ const App = () => {
       <Toaster />
       <main className="flex justify-center items-center w-screen h-screen flex-col gap-5">
         <h2 className="font-semibold text-2xl -mt-12 py-2 text-gray-500 border-b border-gray-500">
-          Curd App
+          Crud App
         </h2>
         <section className="w-1/2 lg:w-1/3 h-auto py-5 px-3 rounded-xl shadow-lg bg-slate-50">
           <div className="flex flex-col gap-2">
